@@ -1,9 +1,9 @@
 import React, { ChangeEvent } from "react";
 
-import Search from "../../Icons/searchIcon";
+import Search from "../Icons/searchIcon";
 
-import { Input } from "../input";
-import { cn } from "../../Utils/utils";
+import { Input } from "./input";
+import { cn } from "../Utils/utils";
 
 export interface SearchInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {

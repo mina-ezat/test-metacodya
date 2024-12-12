@@ -3,7 +3,7 @@ import DeleteIcon from "../Icons/deleteSVG";
 import MainTabel, { mainTabelProps } from "../Components/Main-Components/MainTabel";
 import { Switcher } from "../Components/Main-Components/switcher";
 import PaginationComponent from "../Components/Main-Components/PaginationComponent";
-import { SearchInput } from "../Components/Main-Components/search-input";
+import { SearchInput } from "../Components/search-input";
 import { Selector } from "../Components/Main-Components/selector";
 import InputFile from "../Components/Main-Components/input-file";
 // import SubmissionProgress from "../Components/Main-Components/submissionProgress";
@@ -126,7 +126,7 @@ const Test: React.FC = () => {
     <div className="flex items-center h-full bg-white">
       <div className="max-w-[400px] mx-auto w-full">
         <Button>test</Button>
-        {/*<SideBar subModules={submodules} sideBarStyle="hr-sticky hr-top-0" />*/}
+        <SideBar subModules={submodules} sideBarStyle="hr-sticky hr-top-0" />
       </div>
     </div>
   );
